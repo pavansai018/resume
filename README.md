@@ -1,3 +1,4 @@
+[![Resume](https://img.shields.io/badge/Resume-PDF-blue)](Pavan_2025.pdf)
 # Pavan Sai Eshwar Chandra Boppana  
 **Senior Deep Learning Engineer**
 
