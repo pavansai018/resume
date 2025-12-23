@@ -1,11 +1,65 @@
 remote_theme: sproogen/modern-resume-theme
-title: Pavan Sai Eshwar Chandra Boppana
+plugins:
+  - jekyll-remote-theme
+
 name: Pavan Sai Eshwar Chandra Boppana
-job_title: Senior Deep Learning Engineer
+title: Senior Deep Learning Engineer
 email: 18pavansai@gmail.com
 phone: +65 81242224
 location: Singapore
 
-# optional links
-# github_username: pavansai018
-# linkedin_username: your-linkedin
+about_profile: >
+  Computer Vision and Deep Learning Engineer with 6 years of industry experience in Python, Image Processing, and Deep Learning.
+  Specialized in OCR, image denoising, deskewing, and deblurring. Contributed to autofocus for Sony Alpha-7 wildlife cameras.
+  Currently pursuing MTD in Robotics and Automation at SUTD.
+
+content:
+  - title: Core Skills
+    layout: text
+    content: |
+      - Deep Learning, Computer Vision, Image Processing  
+      - Python, TensorFlow, OpenCV  
+      - CenterNet, U-Net, DCANet  
+      - AWS SageMaker, Model Quantization, Data Augmentation, Model Evaluation  
+      - ROS2, Simulation
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Sony India Software Centre
+        sub_title: Senior Deep Learning Engineer
+        caption: May 2023 – Aug 2025 | Bangalore, India
+        description: |
+          - Implemented autofocus for wildlife imaging using a CenterNet-based model  
+          - Built CV pipelines in Python, TensorFlow, and image processing  
+          - Trained models on AWS SageMaker  
+          - Reduced FP/FN via error analysis and threshold tuning  
+          - Deployed quantized models on camera hardware
+
+      - layout: left
+        title: Vee Technologies
+        sub_title: Deep Learning Engineer
+        caption: Jun 2020 – May 2023 | Salem, India
+        description: |
+          - Built deblurring/denoising models using U-Net and DCANet (TensorFlow)  
+          - Created preprocessing + augmentation pipelines  
+          - Improved PSNR/SSIM via hyperparameter tuning
+
+      - layout: left
+        title: Wipro
+        sub_title: Junior Deep Learning Engineer
+        caption: Jul 2019 – Jun 2020 | Hyderabad, India
+        description: |
+          - Built deep learning-based image deskewing for documents (Python, TensorFlow)  
+          - Improved alignment for OCR/document analysis pipelines
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Singapore University of Technology and Design (SUTD)
+        sub_title: MTD – Robotics and Automation (Pursuing)
+      - layout: left
+        title: Amrita School of Engineering
+        sub_title: B.Tech – Computer Science and Engineering (2015–2019) | CGPA: 7.5
